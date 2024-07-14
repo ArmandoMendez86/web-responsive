@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <title>myCode</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        
+        <header class="header container" id="encabezado">
+            <div class="header__titulo">
+                <h1>
+                    <span class="header__span">&lt;</span>
+                    Ing. Armando
+                    <span class="header__span">/&gt;</span>
+                </h1>
+            </div>
+            <div class="header__nav ">
+                <img src="../img/logo.svg" alt="logo" title="Mi logo">
+                <nav>
+                    <a href="../index.html">INICIO</a>
+                    <a href="cursos.html">CURSOS</a>
+                    <a class="active" href="mentoria.html">MENTORIA</a>
+                    <a href="glosario.html">GLOSARIO</a>
+                    <a href="carrito.html">CARRITO</a>
+                </nav>
+            </div>
+        </header>
+
+         <!-- Menu responsive -->
+
+         <div class="contain__menu">
+            <label for="activar">
+                <svg class="contain__menu__hamburguesa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                </svg>
+            </label>
+            <input class="contain__menu__hamburguesa__checkbox" type="checkbox" id="activar">
+            <ul class="contain__menu__lista">
+                <li class="contain__menu__lista__item"><a href="../index.html">Inicio</a></li>
+                <li class="contain__menu__lista__item"><a href="cursos.html">Cursos</a></li>
+                <li class="contain__menu__lista__item"><a href="mentoria.html">Mentoria</a></li>
+                <li class="contain__menu__lista__item"><a href="glosario.html">Glosario</a></li>
+                <li class="contain__menu__lista__item"><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </div>
+
+        <!-- Menu responsive -->
+        <main class="mentoria container margin__top ">
+            <h2 class="mentoria__titulo">Reservar</h2>
+            <section class="mentoria__section">
+                <div class="mentoria__section__info">
+                    <img class="mentoria__section__info__img" src="../img/foto.jpg" alt="Mi foto" title="Mi fotografía">
+                    <p class="mentoria__section__info__texto">
+                        Illum adipisci dignissimos laborum dolor vitae quia quas ab
+                        reprehenderit cupiditate expedita error rem ipsam libero
+                        Illum adipisci dignissimos laborum dolor vitae quia quas ab
+                        reprehenderit
+                        Illum adipisci dignissimos laborum dolor vitae quia quas ab
+                        reprehenderit cupiditate expedita error rem ipsam libero
+                        Illum adipisci dignissimos laborum dolor vitae quia quas ab
+                        reprehenderit
+                        Illum adipisci dignissimos laborum dolor vitae quia quas ab
+                        reprehenderit cupiditate expedita error rem ipsam libero
+                        Illum adipisci dignissimos laborum dolor vitae quia quas ab
+                        reprehenderit
+                    </p>
+                </div>
+                <form class="mentoria__section__form">
+                    <label class="mentoria__section__form__label mentoria__section__form__label--first">Nombre</label>
+                    <input class="mentoria__section__form__input" type="text">
+                    <label class="mentoria__section__form__label">Fecha</label>
+                    <input class="mentoria__section__form__input" type="date">
+                    <label class="mentoria__section__form__label">Hora</label>
+                    <input class="mentoria__section__form__input" type="time">
+                    <input class="mentoria__section__form__input mentoria__section__form__input--send" type="submit"
+                        value="Agendar">
+                </form>
+            </section>
+        </main>
+        <footer class="footer container margin__top">
+            <div class="footer__redes">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z">
+                    </path>
+                    <circle cx="11.994" cy="11.979" r="3.003"></circle>
+                </svg>
+            </div>
+            <p>Todos los derechos reservados® Armando Méndez Rios</p>
+        </footer>
+    </div>
+
+
+    <a href="#encabezado" class="back">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+                d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-15 5 5h-4v5h-2v-5H7l5-5z">
+            </path>
+        </svg>
+    </a>
+
+
+</body>
+
+</html>
